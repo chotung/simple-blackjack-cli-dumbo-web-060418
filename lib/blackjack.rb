@@ -40,8 +40,8 @@ def hit?(currentCardTotal)
   prompt_user
   get_user_input
   deal_card
-  currentCardTotal = deal_card 
-  return currentCardTotal
+  currentCardTotal 
+ 
 end
 
 def invalid_command
