@@ -39,11 +39,8 @@ def hit?(currentCardTotal)
   # code hit? here
   prompt_user
   get_user_input
-  if get_user_input == 'h'
-    deal_card
-  else
-  currentCardTotal 
- 
+  get_user_input == 'h' ? deal_card: currentCardTotal
+   
 end
 
 def invalid_command
